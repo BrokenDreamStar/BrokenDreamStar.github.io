@@ -1,0 +1,162 @@
+.bulletin {
+    position: relative;
+    height: 23px;
+    width: 1220px;
+    margin: 0 auto;
+    font-size: 8px;
+    text-align: center;
+    color: #fff;
+    background-color: red;
+}
+
+.close-btn {
+    position: absolute;
+    top: 0px;
+    right: 3px;
+    font-size: 20px;
+}
+
+.close-btn::after {
+    content: '\e90c';
+    font-family: 'icomoon';
+    cursor: pointer;
+}
+
+.downloads-box {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.downloads-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clear: both;
+    width: 245px;
+    height: 60px;
+    margin: 0px auto 15px auto;
+    cursor: default;
+}
+
+.craft_table {
+    margin-top: 15px;
+}
+
+.downloads-title img {
+    width: 60px;
+    height: 60px;
+}
+
+.downloads-client-introduce {
+    float: left;
+    width: 230px;
+    height: 390px;
+    background-color: #fff;
+    border: 0.5px solid rgb(145, 145, 145);
+    border-radius: 7px;
+}
+
+.downloads-client-introduce ul li {
+    width: 230px;
+    height: 50px;
+    margin-top: 5.5px;
+    cursor: default;
+}
+
+.downloads-client-introduce ul li div {
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.downloads-client-introduce ul li img {
+    width: 45px;
+    height: 45px;
+    margin-left: 5px;
+}
+
+.downloads-client-introduce ul li span {
+    float: left;
+    width: 180px;
+    height: 50px;
+}
+
+.downloads-client-introduce ul li span p {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.downloads-client {
+    float: right;
+    width: 965px;
+}
+
+.downloads-box ul li a {
+    display: block;
+    width: 230px;
+    height: 120px;
+    background-color: #fff;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    transition: all 0.3s;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.downloads-box ul li a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.downloads-client ul li:nth-child(4n+0) a {
+    margin-right: 0;
+}
+
+.resourcepacks-box ul li:nth-child(5n+0) a,
+.java-download ul li:nth-child(5n+0) a {
+    margin-right: 0;
+}
+
+.downloads-client ul li img {
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.resourcepacks-box ul li a,
+.java-download ul li a {
+    width: 230px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resourcepacks-box ul li img,
+.java-download ul li img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.resourcepacks-box ul li span,
+.java-download ul li span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* 敬请期待 */
+.resourcepacks-box ul li h1 {
+    line-height: 80px;
+    font-weight: 400;
+}
+
+footer {
+    position: static;
+    margin-top: 130px;
+}
