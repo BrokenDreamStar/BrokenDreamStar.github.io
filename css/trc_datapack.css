@@ -1,0 +1,77 @@
+.datapack {
+    width: 1016px;
+    margin: 0 auto;
+}
+
+.datapack h1,
+.datapack h2 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+span p {
+    text-align: center;
+}
+
+.craft {
+    width: 1016px;
+    overflow: hidden;
+}
+
+.craft img {
+    width: 242px;
+    height: 128px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+
+.craft li {
+    position: relative;
+    float: left;
+}
+
+.craft p {
+    position: absolute;
+    bottom: 16px;
+    text-align: center;
+    width: 242px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 13px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cut {
+    overflow: hidden;
+    width: 508px;
+    margin: 0 auto;
+}
+
+.cut img {
+    float: left;
+    width: 242px;
+    height: 91px;
+    margin-right: 12px;
+}
+
+.download a span {
+    display: flex;
+    display: block;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 39px;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #3e8ddd;
+    text-align: center;
+    border-radius: 5px;
+    transition: opacity 0.5s;
+}
+
+.download a span:hover {
+    opacity: 50%;
+}

@@ -1,0 +1,40 @@
+/* 初始化浏览器样式 */
+* {
+    /* 清除浏览器默认外边距 */
+    margin: 0;
+    /* 清除浏览器默认内边距 */
+    padding: 0;
+    /* 使用CSS3盒子样式 */
+    box-sizing: border-box;
+}
+
+body {
+    /* CSS3 文字抗锯齿 */
+    -webkit-font-smoothing: antialiased;
+    /* 声明字体 */
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    /* 背景色 */
+    background-color: rgb(245, 245, 245);
+}
+
+/* em 和 i 的文字不使用斜体样式 */
+em,
+i {
+    font-style: normal
+}
+
+/* 去掉 li 的小圆点 */
+li {
+    list-style: none
+}
+
+/* 修改按钮鼠标样式 */
+button {
+    cursor: pointer
+}
+
+/* 修改链接默认样式 */
+a {
+    text-decoration: none;
+    color: black;
+}

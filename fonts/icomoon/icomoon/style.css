@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?cvauop');
+  src:  url('fonts/icomoon.eot?cvauop#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?cvauop') format('truetype'),
+    url('fonts/icomoon.woff?cvauop') format('woff'),
+    url('fonts/icomoon.svg?cvauop#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add-outline:before {
+  content: "\e900";
+}
+.icon-checkmark:before {
+  content: "\e901";
+}
+.icon-checkmark-outline:before {
+  content: "\e902";
+}
+.icon-cheveron-down:before {
+  content: "\e903";
+}
+.icon-cheveron-left:before {
+  content: "\e904";
+}
+.icon-cheveron-outline-down:before {
+  content: "\e905";
+}
+.icon-cheveron-outline-left:before {
+  content: "\e906";
+}
+.icon-cheveron-outline-right:before {
+  content: "\e907";
+}
+.icon-cheveron-outline-up:before {
+  content: "\e908";
+}
+.icon-cheveron-right:before {
+  content: "\e909";
+}
+.icon-cheveron-up:before {
+  content: "\e90a";
+}
+.icon-close:before {
+  content: "\e90b";
+}
+.icon-close-outline:before {
+  content: "\e90c";
+}
+.icon-github:before {
+  content: "\e90d";
+}
+.icon-tencentqq:before {
+  content: "\e90e";
+  color: #eb1923;
+}
+.icon-twitter1:before {
+  content: "\e90f";
+  color: #1da1f2;
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-cloud-download:before {
+  content: "\e9c2";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
+.icon-play2:before {
+  content: "\ea15";
+}
+.icon-play3:before {
+  content: "\ea1c";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-sina-weibo:before {
+  content: "\ea9a";
+}

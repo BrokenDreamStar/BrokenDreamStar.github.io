@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?qtq5nx');
+    src: url('../fonts/icomoon.eot?qtq5nx#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?qtq5nx') format('truetype'),
+        url('../fonts/icomoon.woff?qtq5nx') format('woff'),
+        url('../fonts/icomoon.svg?qtq5nx#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@media screen and (max-width:1200px) {
+
+    .nav .menu {
+        right: 0px;
+    }
+
+    .nav .logo {
+        margin-left: 20px;
+    }
+
+    .w {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:1080px) {
+
+    .menu {
+        display: none;
+    }
+
+    /* .nav .menu-mobile {
+        display: block;
+    } */
+}
+
+.box-box {
+    float: left;
+    width: 100px;
+    height: 60px;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+.nav-box {
+    height: 60px;
+    overflow: hidden;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    border-bottom: 2px solid black;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.logo {
+    margin-left: 100px;
+    display: inline;
+    float: left;
+    height: 60px;
+    width: 110px;
+}
+
+.logo h1 a {
+    display: block;
+    float: left;
+    width: 55px;
+    height: 55px;
+    font-size: 0%;
+    background: url(../images/StarM_logo.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.logo h2 a {
+    display: block;
+    float: left;
+    width: 55px;
+    height: 55px;
+    font-size: 0px;
+    background: url(../images/TRCStudio_logo.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.logo_text {
+    height: 60px;
+    width: 280px;
+    float: left;
+    position: relative;
+}
+
+.logo_text h3 {
+    position: absolute;
+    left: 15px;
+    font-size: 26px;
+}
+
+.logo_text h4 {
+    position: absolute;
+    left: 40px;
+    top: 35px;
+    font-size: 16px;
+}
+
+.menu {
+    position: absolute;
+    top: 4px;
+    right: 85px;
+}
+
+.menu ul li {
+    float: left;
+    margin: 0 15px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.menu .menu-2 {
+    position: relative;
+    width: 90px;
+}
+
+.menu-2 .menu-two li {
+    border-bottom: 1px solid #191919;
+    width: 90px;
+    height: 48px;
+
+}
+
+.menu-two {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.menu .menu-2,
+.menu-2 .menu-two li {
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li a {
+    display: block;
+    line-height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 0px solid transparent;
+    transition: transform 0s, border-color 0.7s, color 0.5s;
+}
+
+.menu ul li a:hover {
+    transform: translateY(-3px);
+    border-bottom: 2px solid red;
+    color: red;
+}
+
+.menu-2:hover .menu-two {
+    display: block;
+}
+
+.checked {
+    color: red;
+}
+
+/* .menu-mobile {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.menu-mobile::before {
+    font-family: 'icomoon';
+    content: '\e905';
+    font-size: 30px;
+} */
+
+/* 箭头 字体图标 */
+/* .arrow-icon::after {
+    content: '\e903';
+    font-family: 'icomoon';
+    margin-left: 6px;
+} */
+
+main {
+    min-height: calc(100vh - 70px);
+}
+
+/* 页尾 */
+footer {
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.08);
+
+}
+
+footer a {
+    color: blue;
+}
+
+@media screen and (max-height: 800px) {
+    footer {
+        position: static;
+    }
+}

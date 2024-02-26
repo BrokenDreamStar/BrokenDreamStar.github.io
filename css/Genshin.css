@@ -1,0 +1,48 @@
+.starm-nav {
+    background-color: #e3f2fd;
+}
+
+.starm-nav-logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.starm-nav ul li {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+}
+
+.btn-group {
+    margin-top: 58px;
+}
+
+.Genshin-up h2 {
+    margin-top: -58px;
+    padding-top: 58px;
+}
+
+.Genshin-up img {
+    width: 460px;
+    height: 250px;
+}
+
+body {
+    position: relative;
+}
+
+.btn {
+    color: #ffffff;
+}
+
+.btn-1 {
+    /* background-color: #359697; */
+    background-color: #DEBD6C;
+}
+
+.btn-2 {
+    background-color: #945DC4;
+}
+
+.btn-3 {
+    background-color: #66AD16;
+}

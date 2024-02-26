@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarM | 红色创意内服官网</title>
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/trc-client.css">
+</head>
+
+<body>
+    <div class="nav-box">
+        <div class="nav">
+            <div class="logo">
+                <h1>
+                    <a href="../index.html" title="StarM">StarM</a>
+                </h1>
+                <h2>
+                    <a href="https://www.trc.studio/" title="红色创意" target="_blank">红色创意</a>
+                </h2>
+            </div>
+            <div class="logo_text">
+                <h3>
+                    <a href="../index.html">StarM | 红色创意</a>
+                </h3>
+                <h4>
+                    <a href="../index.html">红色创意内服官网</a>
+                </h4>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="../index.html">首页</a>
+                    </li>
+                    <li>
+                        <a href="https://www.trc.studio/" target="_blank">红色创意官网</a>
+                    </li>
+                    <li>
+                        <a href="../downloads.html" class="arrow-icon">资源下载</a>
+                    </li>
+                    <li>
+                        <a href="../join_us.html">加入我们</a>
+                    </li>
+                    <li class="menu-2">
+                        <a href="">更多</a>
+                        <ul class="menu-two">
+                            <li><a href="../about.html">关于我们</a></li>
+                            <li><a href="../dt.html">来点弔图</a></li>
+                            <li><a href="#">敬请期待</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="trc-client">
+        <div class="tab">
+            <div class="tab_list">
+                <ul>
+                    <li class="current">下载</li>
+                    <li>介绍</li>
+                    <li>模组列表</li>
+                    <li>材质列表</li>
+                    <li>光影列表</li>
+                </ul>
+            </div>
+            <div class="tab_con">
+                <div class="item download" style="display: block;">
+                    <div class="download-button">
+                        <a href="../404.html">完整包下载</a>
+                        <a href="../404.html">精简包下载</a>
+                    </div>
+                    <span>
+                        <p>完整包:包含了完整游戏文件 下载完解压即可使用</p>
+                        <p>精简包:删除了部分游戏文件 首次启动游戏时会自动下载补全</p>
+                    </span>
+                </div>
+                <div class="item">
+                    introduce
+                </div>
+                <div class="item">
+                    mods
+                </div>
+                <div class="item">
+                    resourcepack
+                </div>
+                <div class="item">
+                    shadow
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tab_list = document.querySelector('.tab_list');
+        var lis = tab_list.querySelectorAll('li');
+        var items = document.querySelectorAll('.item');
+        for (var i = 0; i < lis.length; i++) {
+            lis[i].setAttribute('index', i);
+            lis[i].onclick = function () {
+                for (var i = 0; i < lis.length; i++) {
+                    lis[i].className = '';
+                }
+                this.className = 'current';
+                var index = this.getAttribute('index');
+                console.log(index);
+                for (var i = 0; i < items.length; i++) {
+                    items[i].style.display = 'none';
+                }
+                items[index].style.display = 'block';
+            }
+        }
+        document.onreadystatechange = function () {
+            if (document.readyState == "complete") {
+                document.body.style.display = "block";
+            } else {
+                document.body.style.display = "none";
+            };
+        };
+    </script>
+    <footer>
+        <p>Copyright ©2021-2022 BrokenDream_Star | StarM</p>
+        <p>Copyright ©2015-2022 红色创意</p>
+        <a href=" http://beian.miit.gov.cn">辽ICP备2022003032号</a>
+    </footer>
+</body>
+
+</html>
